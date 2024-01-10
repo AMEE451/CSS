@@ -1,0 +1,61 @@
+.text1 {
+    font-style: italic;
+    border: 1px solid green;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    word-spacing: 12px;
+    background-color: rgb(224, 238, 243);
+    text-indent: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text2 {
+    font-weight: bolder;
+    font-style: italic;
+    border: 1px dashed red;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: larger;
+    text-decoration: line-through;
+    background-color: rgb(250, 239, 225);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.text3 {
+    background-color: beige;
+    border: 1px solid purple;
+    word-spacing: 12px;
+    font-family: monospace;
+    font-size: large;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text4 {
+
+    background-color: rgb(203, 246, 251);
+    border: 1px solid orange;
+    text-decoration: overline;
+    border-radius: 5px;
+    padding: 10px;
+    color: green;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+}
+
+.text5 {
+
+    background-color: rgb(246, 239, 208);
+    border: 1px solid green;
+    text-decoration: overline;
+    border-radius: 5px;
+    padding: 10px;
+    color: red;
+    word-spacing: 5px;
+    font-weight: bold;
+}
