@@ -1,0 +1,208 @@
+.box1 {
+    border-radius: 5px;
+    height: 233px;
+    width: 132px;
+    box-shadow: 0.5px 2px 5px 1px grey;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-top: 4px;
+
+}
+
+
+.shoes {
+    text-align: center;
+}
+
+.name {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.detail {
+    font-size: xx-small;
+    text-align: center;
+    color: grey;
+}
+
+.price {
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rate {
+    text-align: center;
+    color: rgb(248, 208, 31);
+    font-size: small;
+    padding-top: 10px;
+}
+
+.uni {
+    color: black;
+}
+
+.buy {
+    text-align: center;
+    font-size: medium;
+    padding: 4px;
+    margin-top: 12px;
+    background-color: rgb(250, 132, 152);
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+.box2 {
+    border-radius: 5px;
+    height: 233px;
+    width: 132px;
+    box-shadow: 0.5px 2px 5px 1px grey;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-top: 4px;
+}
+
+.shoes2 {
+    text-align: center;
+}
+
+.name2 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.detail2 {
+    font-size: xx-small;
+    text-align: center;
+    color: grey;
+}
+
+.price2 {
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rate2 {
+    text-align: center;
+    color: rgb(248, 208, 31);
+    font-size: small;
+    padding-top: 10px;
+}
+
+.uni2 {
+    color: black;
+}
+
+.buy2 {
+    text-align: center;
+    font-size: medium;
+    padding: 4px;
+    margin-top: 12px;
+    background-color: rgb(250, 132, 152);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box3 {
+    border-radius: 5px;
+    height: 233px;
+    width: 132px;
+    box-shadow: 0.5px 2px 5px 1px grey;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.shoes3 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.name3 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.detail3 {
+    font-size: xx-small;
+    text-align: center;
+    color: grey;
+}
+
+.price3 {
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rate3 {
+    text-align: center;
+    color: rgb(248, 208, 31);
+    font-size: small;
+    padding-top: 10px;
+}
+
+.buy3 {
+    text-align: center;
+    font-size: medium;
+    padding: 4px;
+    margin-top: 12px;
+    background-color: rgb(250, 132, 152);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.box4 {
+    border-radius: 5px;
+    height: 233px;
+    width: 132px;
+    box-shadow: 0.5px 2px 5px 1px grey;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-top: 4px;
+
+}
+
+.shoes4 {
+    text-align: center;
+}
+
+.name4 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.detail4 {
+    font-size: xx-small;
+    text-align: center;
+    color: grey;
+}
+
+.price4 {
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rate4 {
+    text-align: center;
+    color: rgb(248, 208, 31);
+    font-size: small;
+    padding-top: 10px;
+}
+
+.buy4 {
+    text-align: center;
+    font-size: medium;
+    padding: 4px;
+    margin-top: 12px;
+    background-color: rgb(250, 132, 152);
+    border-radius: 0px 0px 5px 5px;
+}

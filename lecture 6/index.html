@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 6</title>
+</head>
+<style>
+    #box1 {
+        transform: translate(20);
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(140, 240, 240);
+
+    }
+
+    #text1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #box2 {
+        transform: translate(20);
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(140, 240, 240);
+        margin-left: 50px;
+    }
+
+    #text2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #box3 {
+        transform: translate(20);
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(140, 240, 240);
+        margin-left: 50px;
+    }
+
+    #text3 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #box4 {
+        transform: translate(20);
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(140, 240, 240);
+        margin-left: 50px;
+    }
+
+    #text4 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #parent {
+        display: flex;
+        justify-content: center;
+        padding-top: 130px;
+    }
+
+    #box1:hover {
+        transform: translate(10px, 10px);
+    }
+
+    #box2:hover {
+        transform: rotate(45deg);
+    }
+
+    #box3:hover {
+        transform: scale(1.2);
+    }
+
+    #box4:hover {
+        transform: skew(15deg);
+    }
+</style>
+
+<body>
+    <div id="parent">
+        <div id="box1">
+            <p id="text1">Translate</p>
+        </div>
+        <div id="box2">
+            <p id="text2">Rotate</p>
+        </div>
+        <div id="box3">
+            <p id="text3">Scale</p>
+        </div>
+        <div id="box4">
+            <p id="text4">Skew</p>
+        </div>
+    </div>
+</body>
+
+</html>

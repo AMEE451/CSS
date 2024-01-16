@@ -1,0 +1,12 @@
+.star{
+    font-size: xx-small;
+    margin-top: 10px;
+    padding-left: 30px;
+    display: inline-block;
+}
+.br{
+    display: inline-block;
+    font-size: 60%;
+    padding-left: 3px;
+    color: grey;
+}

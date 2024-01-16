@@ -1,0 +1,534 @@
+ .nav {
+    word-spacing: 1px;
+    margin-top: 6px;
+    font-size: xx-small; 
+} 
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+.box1 {
+    background-color: rgb(111, 184, 249);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item1 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item1:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img {
+    padding-top: 20px;
+}
+
+.name2 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy2 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy2:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img2 {
+    padding-top: 20px;
+}
+
+.item2 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item2:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name3 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy3 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy3:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img3 {
+    padding-top: 20px;
+}
+
+.item3 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item3:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name4 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy4 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.buy4:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img4 {
+    padding-top: 20px;
+}
+
+.item4 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+}
+
+.item4:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.item5 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item5:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name5 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy5 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.buy5:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img5 {
+    padding-top: 20px;
+}
+
+.name6 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy6 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.buy6:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img6 {
+    padding-top: 20px;
+}
+
+.item6 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item6:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name7 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy7 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy7:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img7 {
+    padding-top: 20px;
+}
+
+.item7 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item7:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name8 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy8 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy8:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img8 {
+    padding-top: 20px;
+}
+
+.item8 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+}
+
+.item8:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item9 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item9:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name9 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy9 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy9:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img9 {
+    padding-top: 20px;
+}
+
+.name10 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy10 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy10:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img10 {
+    padding-top: 20px;
+}
+
+.item10 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item10:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name11 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy11 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy11:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img11 {
+    padding-top: 20px;
+}
+
+.item11 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.item11:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.name12 {
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.buy12 {
+    background-color: rgb(16, 178, 232);
+    border-radius: 5px;
+    margin-top: 15px;
+    border-style: none;
+    cursor: pointer;
+    padding: 5px;
+    padding: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+.buy12:hover {
+    border: 0.5px solid;
+    box-shadow: 0.1px 0.1px 1.5px 1px grey;
+}
+
+.img12 {
+    padding-top: 20px;
+}
+
+.item12 {
+    background-color: whitesmoke;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+}
+
+.item12:hover {
+    box-shadow: 0.1px 0.1px 1.5px 1px rgb(190, 189, 189);
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}

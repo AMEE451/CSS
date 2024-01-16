@@ -1,0 +1,71 @@
+.text1{
+    font-style: italic;
+    border: 2px solid rgb(29, 193, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    word-spacing: 12px;
+    background-color: rgb(224, 238, 243);
+    text-indent: 30px ;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.text2{
+    font-weight: bolder;
+    font-style: italic;
+    border : 2px dashed rgb(255, 47, 1);
+    word-spacing: 10px;
+    text-indent: 30px;
+    font-size: larger;
+    text-decoration: line-through;
+    background-color: rgb(250, 239, 225);
+    border-radius: 8px;
+    padding: 20px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+.text3{
+    background-color: beige;
+    border: 2px solid rgb(64, 0, 123);
+    word-spacing: 12px;
+    font-family: monospace;
+    font-size: large;
+    text-indent: 30px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.text4{
+     
+    background-color: rgb(216, 246, 246);
+    border-style: double;
+    color: rgb(2, 154, 86);
+    letter-spacing: 2px;
+    word-spacing: 15px  ;
+    text-indent: 30px;
+    border-radius: 8px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: larger;
+    border-color: orange;
+    text-decoration: overline;
+    
+}
+
+.text5{
+    color: rgb(251, 44, 44);
+    border: 2px solid rgb(5, 185, 5);
+    background-color:rgb(248, 246, 202);
+    word-spacing: 12px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Poppins;
+    text-indent: 30px;
+    border-radius: 8px;
+    font-weight:600;
+    letter-spacing: 1px;
+    padding: 20px; 
+    text-decoration: overline;
+}
