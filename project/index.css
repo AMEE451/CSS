@@ -1,0 +1,351 @@
+.market{
+    color: rgb(250, 222, 184);
+}
+.nav{
+    background-color: rgb(69, 68, 68);
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-top: 4px; */   
+}
+.navs{
+    position: fixed;
+}
+
+.envato{
+    color: white;
+    font-size: smaller;
+    margin-top: 5px;
+    
+}
+.buy{
+    border-style: none;
+    background-color: rgb(250, 222, 184);
+    border-radius: 3px;
+    font-size: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 18px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 590px;
+}
+.button:hover{
+    box-shadow: 5px 5px 5px 5px rgb(190, 73, 73);
+    
+}
+.img{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav2{
+    display: flex;
+    box-shadow: 0.5px 0.5px  1px rgb(219, 219, 219);
+    background-color: white;
+    height: 35px;
+}
+
+.im{
+    padding-left: 60px;
+    margin-top: 10px;
+}
+.ig{
+    margin-top: 5px;
+
+}
+.wood{
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 2px;
+}
+.acr{
+    margin-top: 12px;
+    font-size: xx-small;
+    margin-left: 250px;
+}
+a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+.buywood{
+    margin-top: 8px;
+    height: 55%;
+    font-weight: bold;
+    font-size: 40%;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.p1{
+    color: rgb(216, 173, 111);
+}
+.para{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: xx-large;
+    font-weight:bold;
+}
+.compatible{
+    color: grey;
+    font-size: smaller;
+}
+.and{
+    color: grey;
+    font-size: smaller;
+    margin-left: 3px;
+}
+.ele{
+    font-weight: bold;
+    font-size: smaller;
+    margin-left: 3px;
+    margin-top: 15px;
+}
+.woo{
+    font-weight: bold;
+    font-size: smaller;
+    margin-left: 4px;
+}
+.more{
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    margin-top: 20px
+}
+.mix{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.video{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.all{
+    display: flex;
+    padding-top: 100px;
+
+}
+.no1{
+    color: rgb(216, 173, 111);
+    font-size: xx-small;
+    margin-top: 3px;
+    justify-content: center;
+    display: flex;
+}
+.sub1{
+    margin-top: 3px;
+    font-size:80%;
+    font-weight:600;
+    display: flex;
+    justify-content: center;
+}
+
+.no2{
+    color: rgb(216, 173, 111);
+    font-size: xx-small;
+    margin-top: 3px;
+    justify-content: center;
+    display: flex;
+}
+.sub2{
+    margin-top: 3px;
+    font-size:80%;
+    font-weight:600;
+    justify-content: center;
+    display: flex;
+}
+/* .icon2{
+    margin-left: 10px;
+} */
+.no3{
+    color: rgb(216, 173, 111);
+    font-size: xx-small;
+    margin-top: 3px;
+    justify-content: center;
+    display: flex;
+}
+.sub3{
+    margin-top: 3px;
+    font-size:80%;
+    font-weight:600;
+    justify-content: center;
+    display: flex;
+}
+.img3{
+    margin-left: 15px;
+}
+/* .icon3{
+    margin-left: 50px;
+} */
+.no4{
+    color: rgb(216, 173, 111);
+    font-size: xx-small;
+    margin-top: 3px;
+    justify-content: center;
+    display: flex;
+}
+.sub4{
+    margin-top: 3px;
+    font-size:80%;
+    font-weight:600;
+    justify-content: center;
+    display: flex;
+}
+.img4{
+    margin-left: 10px;
+}
+/* .icon4{
+    margin-left: 10px;
+} */
+.no5{
+    color: rgb(216, 173, 111);
+    font-size: xx-small;
+    margin-top: 3px;
+    justify-content: center;
+    display: flex;
+}
+.img5{
+    margin-left: 27px;
+}
+.sub5{
+    margin-top: 3px;
+    font-size:80%;
+    font-weight:600;
+    justify-content: center;
+    display: flex;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.Websites{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+.eit{
+    color: rgb(216, 173, 111);
+}
+.save{
+    font-size: x-small;
+    color: grey;
+    margin-top: 60px;
+}
+.part3{
+    display: flex;
+    justify-content: space-around;
+}
+.grid{
+    display:grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+}
+.box1{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box2{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box3{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box4{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box5{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box6{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box7{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box8{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box9{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box10{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box11{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
+.box12{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+}
