@@ -1,38 +1,8 @@
 .market{
     color: rgb(250, 222, 184);
 }
-.nav{
-    background-color: rgb(69, 68, 68);
-    display: flex;
-    /* justify-content: space-between; */
-    /* padding-top: 4px; */   
-}
 .navs{
     position: fixed;
-}
-
-.envato{
-    color: white;
-    font-size: smaller;
-    margin-top: 5px;
-    
-}
-.buy{
-    border-style: none;
-    background-color: rgb(250, 222, 184);
-    border-radius: 3px;
-    font-size: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 18px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-left: 590px;
-}
-.button:hover{
-    box-shadow: 5px 5px 5px 5px rgb(190, 73, 73);
-    
 }
 .img{
     margin-top: 6px;
@@ -83,13 +53,26 @@ a{
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+}
+.buywood:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition-delay: 0.4s;
+    cursor: pointer;
+
+}
+.buy{
+    padding-top: 4px;
+    padding-left: 3px;
 }
 .p1{
     color: rgb(216, 173, 111);
 }
 .para{
     margin-top: 80px;
-    margin-left: 30px;
+    margin-left: 15px;
     font-size: xx-large;
     font-weight:bold;
 }
@@ -106,12 +89,22 @@ a{
     font-weight: bold;
     font-size: smaller;
     margin-left: 3px;
-    margin-top: 15px;
+}
+.eleimg{
+   padding-left: 5px;
+   padding-right: 2px;
 }
 .woo{
     font-weight: bold;
     font-size: smaller;
     margin-left: 4px;
+}
+.wooimg{
+    padding-left: 5px;
+    padding-right: 2px;
+}
+.subflex{
+    /* display: flex; */
 }
 .more{
     border-style: none;
@@ -120,20 +113,33 @@ a{
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 30px;
-    margin-top: 20px
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.more:hover{
+    box-shadow: 0.5px 0.5px 3px 0.5px grey;
+    cursor: pointer;
 }
 .mix{
     margin-left: 30px;
     margin-top: 20px;
 }
 .video{
-    margin-left: 60px;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 200px;
+    width: 320px;
+}
+#all{
+    display: flex;
+    padding-top: 16px;
+    padding-left: 20px;
 }
 .all{
     display: flex;
-    padding-top: 100px;
-
+    padding-top: 8px;
+    padding-left: 20px;
 }
 .no1{
     color: rgb(216, 173, 111);
@@ -255,97 +261,415 @@ a{
 }
 .box1{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 30px;
+    height: 150px;  
+}
+.box1:hover{
+    transform: scale(1.02);
 }
 .box2{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 7px;
+    height: 150px;    
+}
+.box2:hover{
+    transform: scale(1.02);
 }
 .box3{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 7px; 
+    height: 150px;   
+}
+.box3:hover{
+    transform: scale(1.02);
 }
 .box4{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 7px; 
+    height: 150px;   
+}
+.box4:hover{
+    transform: scale(1.02);
 }
 .box5{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 30px;  
+    height: 150px;  
 }
 .box6{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 7px;
+    height: 150px;    
 }
 .box7{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 7px;
+    height: 150px;    
 }
 .box8{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
     margin-bottom: 7px;  
+    height: 150px;
 }
 .box9{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
-    margin-bottom: 7px;  
+    margin-bottom: 30px; 
+    height: 150px;     
 }
 .box10{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
     margin-bottom: 7px;  
+    height: 150px;    
 }
 .box11{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
     margin-bottom: 7px;  
+    height: 150px;    
 }
 .box12{
     box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
-    width: 170px;
-    padding: 5px;
+    width: 150px;
+    padding: 10px;
     border-radius: 5px;
     margin-left: 7px;
     margin-bottom: 7px;  
+    height: 150px;    
+}
+.box13{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 30px; 
+    height: 150px;     
+}
+.box14{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+    height: 150px;    
+}
+.box15{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;  
+    height: 150px;    
+}
+.box16{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px; 
+    height: 150px;     
+}
+.box17{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    height: 150px;    
+}
+.box18{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px; 
+    height: 150px;     
+}
+.box19{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px; 
+    height: 150px;     
+}
+.box20{
+    box-shadow: 0.4px 0.5px 3px 0.7px rgb(219, 219, 219);
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    height: 150px;      
+}
+.whole{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+.color{
+    color: rgb(216, 173, 111);
+}
+.red{
+    font-weight: bold;
+}
+.red-sub{
+    font-size: x-small;
+    color: grey;
+}
+.red1{
+    background-color: rgb(247, 247, 247);
+    height: 250px;
+    width: 220px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 6px;
+    /* margin-left: 20px; */
+}
+.big1{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    width: 480px;
+    height: 260px;
+    border-radius: 6px;
+}
+.big{
+    font-weight: bold;
+    font-size: larger;
+}
+.big-sub{
+    font-size: x-small;
+    color: grey;
+}
+.content{
+    padding-top: 90px;
+    
+}
+.both{
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.six{
+    font-size: 150px;
+    color: rgb(216, 173, 111);
+    position: absolute;
+    z-index: -1;
+    left: 45%;
+    opacity:0.55;
+}
+.wsix{
+    margin-top: 50px;
+    position: relative;
+}
+.reasons{
+    font-weight: bold;
+    font-size: x-large;
+}
+.get{
+    font-size: x-small;
+    color: grey;
+}
+.wtext{
+    text-align: center;
+    margin-top: 170px;
+}
+.fade{
+    font-size: 70px;
+    font-weight: bold;
+    color: grey;
+    opacity: 0.1;
+    left: 10%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 8px;
+}
+.wfade{
+    margin-top: 55px;
+}
+.after1 p{
+    font-size: x-small;
+    color: grey;
+    
+}
+.after1{
+    margin-bottom: 30px;
+}
+.after1 h5{
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+    line-height: 2.2;
+}
+.after2 p{
+    font-size: x-small;
+    color: grey;
+    
+}
+.after2 h5{
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+    line-height: 2.2;
+}
+.after3 p{
+    font-size: x-small;
+    color: grey;
+    
+}
+.after3 h5{
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+    line-height: 2.2;
+}
+.after4 p{
+    font-size: x-small;
+    color: grey;
+    
+}
+.after4 h5{
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+    line-height: 2.2;
+}
+.after5 p{
+    font-size: x-small;
+    color: grey;
+    
+}
+.after5 h5{
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+    line-height: 2.2;
+}
+.after6 p{
+    font-size: x-small;
+    color: grey;
+    
+}
+.after6 h5{
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+    line-height: 2.2;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+}
+.background{
+    width: 755px;
+    border-radius: 300px 300px 0px 0px;
+    height: 320px;
+    background-color: rgb(246, 245, 245);
+    position: absolute;
+    margin-top: 50px;
+}
+.w{
+    font-size: 200px;
+    font-weight: bold;
+    background: #C3C9CF;
+    background: linear-gradient(to bottom, #DEDEDE  0%,#FCFCFC 100%);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    position: relative;
+    left: 30%;
+    top:-80px;
+
+}
+.mart{
+    color: rgb(216, 173, 111);
+    margin-left: 5px;
+}
+.last{
+    display:flex ;
+    margin-left: 12px;
+}
+.two{
+    position: relative;
+    top: -300px;
+    left: 220px;
+    
+}
+.pay{
+    color: grey;
+    font-size: smaller;
+    margin-left: 70px;
+    line-height: 2.5;
+}
+.button{
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(216, 173, 111);
+    font-size: 8px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.creator{
+    font-size: xx-small;
+    color: grey;
+    margin-left: 95px;
+    margin-top: 40px;
 }
