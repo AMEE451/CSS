@@ -1,0 +1,122 @@
+.nav {
+    background-color: #2c3e50;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+}
+@media only screen and (min-width: 992px)
+{
+.all {
+    grid-template-columns: repeat(5, 1fr);
+}
+}
+@media(min-width:789px) and (max-width:1024px) {
+    .all {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:1024px) and (max-width:1200px) {
+    .all {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+a {
+    color: white;
+    font-size:27px;
+    text-decoration: none;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 236px;
+    height: 325px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.box img{
+    max-width: 235px;
+    height: 235px;
+    transition: transform 0.3s ease;
+}
+.box:hover img{
+    transform: scale(1.05);
+    transition-duration: 0.50s;
+}
+.box:hover{
+    /* margin-top: -0.01px; */
+    box-shadow: 0.5px 0.5px 20px 0.02px rgb(219, 219, 219);
+    transition-duration: 0.50s;
+    transform: translate(0px,-5px);
+}
+h3 {
+    padding-top: 10px;
+}
+
+p {
+    color: grey;
+}
+
+button {
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(6, 133, 212);
+}
+.img :hover {
+    transform: scale(1.03);
+    background-color: aquamarine;
+    border: 1px;
+}
+img:hover {
+    transform: scale(1.03);
+}
+h1 {
+    text-align: center;
+}
+hr{
+    margin-top: -10px;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 360px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+a:hover {
+    color: rgb(6, 133, 212);
+}
+
