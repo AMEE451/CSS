@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <img class="img1"  src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80" alt=""
+    height="400px" width="600px"> <br>
+
+    <!-- <img class="img2" src="https://as1.ftcdn.net/v2/jpg/02/88/16/32/1000_F_288163265_4FrsUq4LOL6HkWbW408SmOOyPH9nhCEc.jpg" alt=""
+    height="400px" width="600px"> -->
+
+    <button class="btn1">Change</button>
+    <button class="btn2">Hide</button>
+    <button class="btn3">Show</button>
+    <button class="btn4">Toggle</button>
+    <button class="btn5">Move cursor over text</button>
+    <button class="btn6">Leave Cursor</button>
+    <button class="btn7">Double cLick</button>
+</body>
+
+<script src="/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(".btn1").click(()=>{
+        $(".img1").attr("src","https://as1.ftcdn.net/v2/jpg/02/88/16/32/1000_F_288163265_4FrsUq4LOL6HkWbW408SmOOyPH9nhCEc.jpg");
+    });
+
+    $(".btn2").click(()=>{
+        $(".img1").hide();
+    })
+    $(".btn3").click(()=>{
+        $(".img1").show();
+    })
+    $(".btn4").click(()=>{
+        $(".img1").toggle();
+    })
+    $(".btn5").mouseenter(()=>{
+        $(".img1").css("src","https://as1.ftcdn.net/v2/jpg/02/88/16/32/1000_F_288163265_4FrsUq4LOL6HkWbW408SmOOyPH9nhCEc.jpg ");
+    })
+    $(".btn6").click(()=>{
+        $(".img1").mouseleave();+
+    })
+    $(".btn7").click(()=>{
+        $(".img1").dblclick();
+    })
+ 
+</script>
+
+</html>

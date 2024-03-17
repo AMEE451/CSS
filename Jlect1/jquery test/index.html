@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2 class="toggle">Toggle Dark/Light</h2>
+        <h1>To-do list</h1>
+        <form class="form">
+            <input type="text" class="test" placeholder="Add new task">  
+        </form>
+        <button class="submit">Add task</button>
+    </div>
+    <div id="box">
+
+    </div>
+</body>
+
+<script>
+    $(".form").submit((event) => {
+        event.preventDefault();
+
+        let test = $(".test").val();
+
+        $("#box").append(`<button class="result">${test}</button>`)
+    });
+
+    $(".toggle").click(()=>{
+        $("body").toggleClass("light");
+    });
+    
+    </script>
+
+</html>
