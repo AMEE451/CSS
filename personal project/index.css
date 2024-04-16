@@ -1,0 +1,268 @@
+.nav{
+    margin-top: 5px;
+    ;
+}
+.link{
+    display: flex;
+    font-size: x-small;
+    font-weight: 640;
+    align-items: center;
+}
+.demo{
+    padding: 7px;
+    text-decoration:none;
+    position: relative;
+    color:black
+}
+.demo:hover{
+    color: black;
+}
+.demo:after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    margin-left: 7px;
+    margin-bottom: 8px;
+}
+.demo:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: black;
+}
+.feature{
+    padding: 7px;
+    text-decoration:none;
+    position: relative;
+    color:black
+}
+.feature:hover{
+    color: black;
+}
+.feature:after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    margin-left: 7px;
+    margin-bottom: 8px;
+}
+.feature:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: black;
+}
+.support{
+    padding: 7px;
+    text-decoration:none;
+    position: relative;
+    color:black
+}
+.support:hover{
+    color: black;
+}
+.support:after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    margin-left: 7px;
+    margin-bottom: 8px;
+}
+.support:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: black;
+}
+.button{
+   font-size:xx-small;
+    font-weight:649;
+   border-style: none;
+   background-color: white;
+   border-radius: 3px;
+   padding: 9px 20px;
+   margin-top: 10px;
+   box-shadow: 0.5px 0.5px 7px 0.1px rgb(208, 208, 208);
+}
+
+.br{
+    font-weight:bolder;
+    font-size:45px;
+    margin-top:12%;
+    margin-left: 8%;
+}
+.text{
+    font-size: x-small;
+    color: rgb(145, 144, 144);
+    font-weight: 500;
+    margin-left: 75px;
+    /* z-index: 1;
+    position: absolute; */
+/* }
+.img1{
+    margin-left: 245px;
+}
+.img2{
+    margin-left: 350px;
+    margin-top: -334px; */
+}
+/* .img3{
+    margin-left: 670px;
+    margin-top: -750px;
+} */
+
+
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+
+.dropdown-toggle::after{
+    display: none;
+    /* visibility: hidden; */
+}
+
+.background-marquee{
+    background-image: url(img/preview-image/brook-landing-marque-image-01.jpg);
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+@font-face {
+    font-family: 'ZingRustD2Demo-Base';
+    src: url(zing/ZingRustD2Demo-Base.otf);
+}
+
+ marquee{
+    font-family:"ZingRustD2Demo-Base", Arial, Helvetica, sans-serif;
+    opacity: 100px;
+    color: rgb(215, 215, 215);
+    animation: marquee 7s infinite linear; 
+    animation:loop text 7s infinite linear;
+    z-index:-1;
+    position: relative;
+}
+.plus{
+    z-index: 10;
+    position: absolute;
+    left: 41%;
+    margin-top: -17%;
+    
+
+
+}
+.no{ 
+    background: #CF189F;
+background: linear-gradient(to right, #CF189F 0%, #FFAC76 70%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.sign{
+    background: #CF189F;
+background: linear-gradient(to right, #CF189F 0%, #FFAC76 75%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+img:hover{
+    transform: translate(0px,-10px);
+    transition-duration: 0.50s;
+}
+.swipe{
+    height: 470px;
+}
+#col1{
+    position:relative;
+    z-index: 1;
+    margin-top: 100px
+
+}
+#col2{
+    margin-left: -95px;
+    margin-top: -60px;
+}
+img{
+    /* margin-top: 150px; */
+}
+.layout{
+    /* background-image:url(img/preview-image/brook-landing-immensity-of-template-bg.jpg); */
+    background-color:#3c27de;
+    background-repeat:no-repeat;
+    /* position: absolute; */
+    /* height: 500px; */
+    width: 100%;
+    height: 450px;
+}
+.cont{
+    position: relative;
+    padding-left: 220px;
+    top: -60px;
+    
+}
+
+/* .pv-template-layout.layout-big{
+    
+    background-color:#e9eef0;
+    background-image:url(img/preview-image/brook-landing-immensity-of-template-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:contain;
+}
+.container{
+    width: 100%;
+    padding-right:15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-lg-12 {
+    flex:0 0 100%;
+    max-width:100%
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.pb--130 {
+    padding-bottom: 130px;
+}
+.pt--170 {
+    padding-top: 170px;
+}
+.text-center {
+    text-align: center !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */

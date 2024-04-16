@@ -1,0 +1,54 @@
+/* #settings{
+    margin-top: 50px;
+} */
+#background{
+    background-image: url(https://img.freepik.com/free-photo/team-young-specialist-doctors-standing-corridor-hospital_1303-21199.jpg);
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* box-shadow: 1px 1px 1px 1px; */
+}
+#background::before{
+    background-color: rgba(19, 19, 19, 0.24);
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 500px; /* Set a minimum height */
+  }
+
+.borde{
+    border: 1px black;
+    height: 10px;
+    width: 40px;
+}
+button{
+    border-style: none;
+    height: 30px;
+    width: 170px;
+    text-align: left;
+   
+}
+/* #outer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.icons{
+    background-color: rgba(153, 204, 248, 0.237);
+    width: 25px;
+    border-radius: 3px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
