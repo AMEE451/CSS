@@ -34,7 +34,7 @@ const uimaker = () => {
         td6.innerHTML = ele.contact
         console.log("amee");
 
-        let td7 = document.createElement('td7')
+        let td7 = document.createElement('td')
         if (ele.experience > 5) {
             td7.innerHTML = "senior"
         }
@@ -42,11 +42,20 @@ const uimaker = () => {
             td7.innerHTML = "Junior"
         }
 
-        let td8 = document.createElement('td')
-        td8.innerHTML = "delete"
-        td8.addEventListener("click", () => fire(i));
 
-        tr.append(td1, td2, td3, td4, td5, td6, td7, td8)
+        let btn1 = document.createElement("button");
+        btn1.innerHTML = "Delete";
+
+        btn1.setAttribute("class", "btn1")
+
+        let td8 = document.createElement("td");
+        td8.append(btn1);
+
+        btn1.addEventListener("click", () => fire(i));
+
+        // td8.setAttribute("id", "tdata");
+
+        tr.append(td1, td2, td3, td4, td5, td6, td7,td8)
 
         document.getElementById("tbody").append(tr);
 
@@ -86,5 +95,10 @@ document.getElementById("data").addEventListener("submit", handledata);
 document.getElementById("deleteall").addEventListener("click", () => {
     document.getElementById("tbody").innerHTML = ""
     employees = []
+
+    Totalemp = 0;
+    document.getElementById("totalemp").innerHTML = `Total Employees : ${Totalemp}`
+    Totalsalary = 0;
+    document.getElementById("totalsalary").innerHTML = `Total Salary : ${Totalsalary}`;
 
 })
