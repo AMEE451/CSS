@@ -1,18 +1,23 @@
 
 let employees = []
 
-const fire=(index)=>{
-    employees.splice(index,1);
+let Totalemp = 0;
+let Totalsalary = 0;
+
+const fire = (index) => {
+    employees.splice(index, 1);
+
+    Totalemp = 0;
+    document.getElementById("totalemp").innerHTML = `Total Employees : ${Totalemp}`
+    Totalsalary = 0;
+    document.getElementById("totalsalary").innerHTML = `Total Salary : ${Totalsalary}`;
     uimaker()
 }
-
-let Totalemp=0;
-let Totalsalary=0;
 const uimaker = () => {
 
     document.getElementById("tbody").innerHTML = ""
 
-    employees.map((ele) => {
+    employees.map((ele, i) => {
         let tr = document.createElement("tr")
 
         let td1 = document.createElement("td")
@@ -29,25 +34,31 @@ const uimaker = () => {
         td6.innerHTML = ele.contact
         console.log("amee");
 
-        let td7=document.createElement('td7')
-        if(ele.experience>5){
-            td7.innerHTML="senior"
+        let td7 = document.createElement('td7')
+        if (ele.experience > 5) {
+            td7.innerHTML = "senior"
         }
-        else{
-            td7.innerHTML="Junior"
+        else {
+            td7.innerHTML = "Junior"
         }
 
         let td8 = document.createElement('td')
         td8.innerHTML = "delete"
-        td8.addEventListener("click",()=>fire(i));
+        td8.addEventListener("click", () => fire(i));
 
-        tr.append(td1, td2, td3, td4, td5, td6, td7,td8)
+        tr.append(td1, td2, td3, td4, td5, td6, td7, td8)
 
         document.getElementById("tbody").append(tr);
 
         Totalemp++;
-        Totalsalary+=ele.slaray;
+        document.getElementById("totalemp").innerHTML = `Total Employees : ${Totalemp}`
+
+        Totalsalary += parseFloat(ele.salary);
+        document.getElementById("totalsalary").innerHTML = `Total Salary : ${Totalsalary}`;
     });
+
+    Totalemp = 0;
+    Totalsalary = 0;
 
 }
 
@@ -68,13 +79,12 @@ const handledata = (e) => {
     uimaker();
 
 }
-
-document.getElementById("totalemp").append=Totalemp;
-document.getElementById("totalsalary").append=Totalsalary;
+    
 
 document.getElementById("data").addEventListener("submit", handledata);
 
 document.getElementById("deleteall").addEventListener("click", () => {
     document.getElementById("tbody").innerHTML = ""
     employees = []
+
 })

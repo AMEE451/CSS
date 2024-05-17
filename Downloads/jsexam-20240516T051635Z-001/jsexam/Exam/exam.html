@@ -13,11 +13,11 @@
   <h1 style="text-align: center; margin-bottom: 50px;">Employee Management System</h1>
     <form id="data" style="text-align: center;">
         <div class="mb-3">
-            <input type="text" class="w-25" placeholder="Employee Name" id="name">
+            <input type="text" class="w-25" placeholder="Employee Name" id="name" required>
           </div>
         <div class="mb-3">
          
-            <select name="" id="job" class="w-25">
+            <select name="" id="job" class="w-25" required>
                 <option selected>Select Job Role</option>
                 <option value="Manager">Manager</option>
                 <option value="Head of Department">Head of Department</option>
@@ -26,7 +26,7 @@
               </select>
         </div>
         <div class="mb-3">
-            <select name="" aria-placeholder="" id="department" class="w-25">
+            <select name="" id="department" class="w-25" required>
                 <option selected>Select Department</option>
                 <option value="Manager">marketing</option>
                 <option value="Head of Department">Sales</option>
@@ -37,15 +37,15 @@
         </div>
         <div class="mb-3">
             
-            <input type="text" class="w-25" placeholder="Monthly Salary" id="salary">
+            <input type="text" class="w-25" placeholder="Monthly Salary" id="salary" required>
           </div>
           <div class="mb-3">
             
-            <input type="text" class="w-25" placeholder="Per work Experience in Years" id="experience">
+            <input type="text" class="w-25" placeholder="Per work Experience in Years" id="experience" required>
           </div>
           <div class="mb-3">
         
-            <input type="text" class="w-25" placeholder="contact email" id="contact">
+            <input type="text" class="w-25" placeholder="contact email" id="contact" required>
           </div>
         <button type="submit" style="background-color: white; border: 1px solid black; padding-left: 180px; padding-right: 175px; color: black;" class="btn btn-primary">Hire</button>
       </form>
