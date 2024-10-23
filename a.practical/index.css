@@ -14,7 +14,7 @@
 
 .all {
     display: grid;
-    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(5, 1fr);
     padding: 10px;
 }
 @media only screen and (min-width: 992px)
@@ -45,7 +45,7 @@ a {
     padding: 20px;
     width: 236px;
     height: 325px;
-    text-align: center;
+    /* text-align: center; */
     transition: transform 0.3s ease;
     background-color: #fff;
     border-radius: 5px;
